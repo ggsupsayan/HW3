@@ -11,10 +11,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <title>Studio</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <a class="logo" href=""><span class="web-logo">Web</span>Studio</a>
       <nav class="menu-nav">
         <ul class="menu-list">
@@ -30,10 +34,13 @@
     </header>
     <main>
       <section class="first-section">
-        <h1 class="title">Effective Solutions for Your Business</h1>
+        <h1 class="title">
+          Effective Solutions<br />
+          for Your Business
+        </h1>
         <button class="title-button" type="button">Order Service</button>
       </section>
-      <section>
+      <section class="advantages container">
         <h2 hidden>Our advantages</h2>
         <ul class="advantages-list">
           <li>
@@ -66,7 +73,7 @@
           </li>
         </ul>
       </section>
-      <section class="second-section">
+      <section class="second-section container">
         <h2>What are we doing</h2>
         <ul class="cards-list">
           <li>
@@ -95,7 +102,7 @@
           </li>
         </ul>
       </section>
-      <section class="third-section">
+      <section class="third-section container">
         <h2>Our Team</h2>
         <ul class="team-list">
           <li>
@@ -105,8 +112,10 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <div class="team-info">
+              <h3>Mark Guerrero</h3>
+              <p>Product Designer</p>
+            </div>
           </li>
           <li>
             <img
@@ -115,8 +124,10 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="team-info">
+              <h3>Tom Ford</h3>
+              <p>Frontend Developer</p>
+            </div>
           </li>
           <li>
             <img
@@ -125,8 +136,10 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <div class="team-info">
+              <h3>Camila Garcia</h3>
+              <p>Marketing</p>
+            </div>
           </li>
           <li>
             <img
@@ -135,8 +148,10 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <div class="team-info">
+              <h3>Daniel Wilson</h3>
+              <p>UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
